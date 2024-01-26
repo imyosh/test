@@ -17,12 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/imyosh/test.git"
+    "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
   },
   "license": "MIT",
   "author": {
-    "name": "yosh",
-    "email": "imyosh4@gmail.com"
+    "name": "Electron React Boilerplate Maintainers",
+    "email": "electronreactboilerplate@gmail.com",
+    "url": "https://electron-react-boilerplate.js.org"
   },
   "contributors": [
     {
@@ -170,7 +171,7 @@
     "webpack-merge": "^5.9.0"
   },
   "build": {
-    "productName": "yoshtest",
+    "productName": "ElectronReact",
     "appId": "org.erb.ElectronReact",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
@@ -215,7 +216,7 @@
     },
     "linux": {
       "target": [
-        "deb"
+        "AppImage"
       ],
       "category": "Development"
     },
@@ -229,9 +230,8 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "imyosh",
-      "repo": "test",
-      "releaseType": "release"
+      "owner": "electron-react-boilerplate",
+      "repo": "electron-react-boilerplate"
     }
   },
   "collective": {
