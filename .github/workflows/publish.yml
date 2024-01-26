@@ -25,6 +25,12 @@ jobs:
           node-version: 18
           cache: npm
 
+      - name: ls
+        run: ls ./releases
+
+      - name: ls2
+        run: ls ./release/build
+
       - name: Install and build
         run: |
           npm install
