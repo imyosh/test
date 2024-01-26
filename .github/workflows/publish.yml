@@ -26,7 +26,7 @@ jobs:
           cache: npm
 
       - name: ls
-        run: ls ./releases
+        run: ls ./release
 
       - name: ls2
         run: ls ./release/build
