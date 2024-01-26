@@ -32,9 +32,6 @@ jobs:
           npm run postinstall
           npm run build
 
-      - name: install dmg-license
-        run: npm i dmg-license
-
       - name: Publish releases
         env:
           # These values are used for auto updates signing
