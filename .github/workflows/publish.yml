@@ -29,7 +29,7 @@ jobs:
         run: ls ./release
 
       - name: ls2
-        run: ls ./release/build
+        run: ls ./release/app
 
       - name: Install and build
         run: |
