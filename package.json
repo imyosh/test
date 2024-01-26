@@ -230,7 +230,8 @@
     "publish": {
       "provider": "github",
       "owner": "imyosh",
-      "repo": "test"
+      "repo": "test",
+      "releaseType": "release"
     }
   },
   "collective": {
